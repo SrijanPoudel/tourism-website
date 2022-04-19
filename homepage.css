@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	background: linear-gradient(to top,rgba(0, 0, 0,0.5)50%,rgba(0, 0,0, 0.5)50%),url(file:///Users/srijanpoudel/Downloads/pexels-pok-rie-132037.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+.navbar{
+	width: 2400px;
+	height: 75px;
+	margin: auto;
+	background-color: black;
+	
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: #ff7200;
+	font-size: 20px;
+	font-family: Arial;
+	padding-left:20px ;
+	float: left;
+	padding-top: 20px;
+
+}
+.menu{
+	width:300px;
+	float: left;
+	height: 70px;
+
+
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	}
+
+	ul li{
+		list-style: none;
+		margin-left: 70px;
+		margin-top: 27px;
+		font-size: 14px;
+
+	}
+	ul li a{
+		text-decoration: none;
+		color: #fff;
+		font-family: Arial;
+		transition: 0.3s ease-in-out;
+
+	}
+	ul li a:hover{
+		color: #ff7200;
+
+	}
+
+	.search{
+		width: 330px;
+		float:left;
+		margin-left: 440px;
+
+		
+	}
+
+	.bar{
+		
+		font-family:'Times New Roman';
+		width: 160px;
+		height: 11px;
+		background: transparent;
+		border: 1px solid #ff7200;
+		margin-top: 15px;
+		color: white;
+		border-right: none;
+		font-size: 16px;
+		padding: 18px;
+		border-bottom-left-radius: 5px;
+		border-top-left-radius: 5px;
+
+
+	
+
+	}
+	.btn{
+		width: 75px;
+		height: 40px;
+		background: #ff7200;
+		border: 2px solid #ff7200;
+		margin-top: 30px;
+		color: white;
+		font-size: 15px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+
+
+
+	}
+	
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+
+
+}
+.comtent .par{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+}
+.explore{
+	width: 160px;
+	height: 40px;
+	background: #ff7200;
+	border: none;
+	margin-left: 2opx;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	
+
+}
+.content.explore{
+	text-decoration: none;
+	color: #000;
+	transition: .3s ease;
+
+}
+
+.explore:hover{
+	background-color: white;
+	color: white;
+
+
+
+}
+.content.span{
+	color: #ff7200;
+
+}
+.copyright{
+	text-align: center;
+	background-color: white;
+
+}

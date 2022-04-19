@@ -1,0 +1,99 @@
+
+
+body{
+	background-color:#6a8091 ;
+  link: red;
+}
+.navbar{
+	width: 1500px;
+	height: 75px;
+	margin: 5px;
+	
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: #ff7200;
+	font-size: 20px;
+	font-family: Arial;
+	padding-left:20px ;
+	float: left;
+	padding-top: 15px;
+
+}
+.menu{
+	width:200px;
+	float: left;
+	height: 70px;
+	padding-bottom: 50px;
+
+
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	}
+
+	ul li{
+		list-style: none;
+		margin-left: 70px;
+		margin-top: 27px;
+		font-size: 14px;
+
+	}
+	ul li a{
+		text-decoration: none;
+		color: #fff;
+		font-family: arial;
+		transition: 0.4s ease-in-out;
+
+	}
+	ul li a:hover{
+		color: #ff7200;
+		
+	}
+
+h1{
+	text-align: center;
+	margin-right:300px;
+	background-color: black;
+	color: white;
+}
+*{
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+	width:390px;
+	padding: 5px;
+	margin-left:auto;
+
+}
+.row1::after{
+	content: "";
+	display: table;
+	clear: both;
+	padding: 5px;
+	margin: auto;
+
+}
+img{
+	width: 75%;
+	border-radius: 5px;
+	align-items: center;
+	scroll-behavior: smooth;
+	margin-left: 60px;
+	transition: .3s ease;
+}
+.name{
+	font-family:'Times New Roman';
+	background-color: white;
+	text-align: center;
+	overflow: auto;
+}

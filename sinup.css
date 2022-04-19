@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+Body{
+	 
+	background-size:cover;
+
+}
+
+.container{
+	border: 12px solid black;
+}
